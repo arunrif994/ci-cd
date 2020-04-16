@@ -1,6 +1,6 @@
 module.exports = {
   branches: "master",
-  repositoryUrl: "https://github.com/arunrif994/ci-cd/pull/4",
+  repositoryUrl: "https://github.com/arunrif994/ci-cd",
   plugins: [
     "@semantic-release/commit-analyzer",
     "@semantic-release/github",
