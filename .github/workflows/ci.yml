@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: cache node_modules
         uses: actions/cache@v1
-        with: 
+        with:
           path: ~/.npm
           key: ${{runner.os}}-node-${{hashfiles('**/package-lock.json')}}
           restore-key: |
